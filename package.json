@@ -1,0 +1,22 @@
+{
+  "name": "facebook-bot",
+  "version": "1.0.0",
+  "description": "facebook messenger bot meant to be tested and serve whatever needs I might have.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot.git",
+    "start": "nodemon server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot/issues"
+  },
+  "homepage": "https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot#readme"
+}
