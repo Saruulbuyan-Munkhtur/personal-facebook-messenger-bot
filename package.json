@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon webScraper.js"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot/issues"
   },
-  "homepage": "https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot#readme"
+  "homepage": "https://github.com/Saruulbuyan-Munkhtur/personal-facebook-messenger-bot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
 }
